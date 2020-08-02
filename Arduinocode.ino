@@ -53,7 +53,7 @@ void loop() {
     serializeJson(jsonDoc, msg, 50);
     Serial.println(msg);
     
-    http.begin("http://192.168.43.253:8090"); //Specify request destination
+    http.begin("http://(your ip address):8090"); //Specify request destination
     http.addHeader("Content-Type", "application/json"); 
     
     int httpCode = http.POST(msg);
