@@ -1,2 +1,2 @@
 # Webserver-Flask-NodeMCU-DHT22
-To display temperature and Humidity from Node MCU on webpage
+To display Temperature and Humidity from Node MCU on webpage
